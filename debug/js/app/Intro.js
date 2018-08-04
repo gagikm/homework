@@ -15,6 +15,7 @@ BH.add('Intro', function() {
         
         _render: function() {
             this.parent._render.call(this);
+            this.get('getStartedBtn').render();
         },        
 
         _behavior: function() {

@@ -110,7 +110,7 @@ BH.add('GetStarted', function() {
 					'first_name': me.get('firstName').getData(),
 					'last_name': me.get('lastName').getData(),
 					'phone': me.get('phone').getData(),
-					'email': this.get('email').getData()
+					'email': me.get('email').getData()
 				}, function(response) {
 					me.get('GoToThanksEvent').fire(response);
 				});	            

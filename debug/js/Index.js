@@ -60,7 +60,7 @@ BH.add('Index', function() {
 				if (BH.Hash.getHash() === 'get-started') {
 					this.get('state').set('get-started');
 				} else if (BH.Hash.getHash() === 'thanks') {
-					this.get('state').set('');
+					this.get('state').set('thanks');
 				} else {
 					this.get('state').set('');
 				}
@@ -81,7 +81,7 @@ BH.add('Index', function() {
     }());
 
     if (!BH.Index) {
-		BH.Index = new Index($('bdy'));
+		BH.Index = new Index($('body'));
 		BH.Index.render();
     }
 });
