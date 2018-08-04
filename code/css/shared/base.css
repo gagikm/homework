@@ -8,6 +8,15 @@ a:hover {
 	text-decoration: none;
 }
 
+.bar {
+	background-color: #1c426c;
+	margin: 0 auto;
+}
+
+.bar img {
+	margin: 0 auto;
+}
+
 body,
 html {
 	overflow-x: hidden;
@@ -21,6 +30,12 @@ body {
 	font-size: 18px;
 	font-weight: 300;
 }
+
+.box {
+	border: 1px solid #d3d3d3;
+	padding: 15px;
+}
+
 
 .btn {
 	position: relative;
@@ -122,6 +137,7 @@ fieldset[disabled] .btn-primary:hover {
 	padding: 22px 56px;
 	border-radius: 8px;
 	background-color: #f2987e;
+	margin-top: 67px;
 }
 
 .btn.get-started span {
@@ -130,6 +146,42 @@ fieldset[disabled] .btn-primary:hover {
 
 .char-counter.maxed-out {
 	color: #f00;
+}
+
+.clients {
+	padding-top: 58px;
+	padding-bottom: 68px;
+	text-align: center;
+	padding:0 50px 50px;
+}
+
+.clients blockquote {
+	display: inline-block;
+	max-width: 430px;
+	border-left: none;
+	font-size: 22px;
+	font-weight: 300;
+}
+
+.clients img {
+	max-width: 384px;
+	margin: 50px auto 0;
+}
+
+.commonly-asked {
+	margin: 40px auto 60px;
+	text-align: center;
+}
+
+.commonly-asked label {
+	font-size: 22px;
+	margin: 40px auto 0;
+}
+
+.commonly-asked p {
+	font-size: 22px;
+	max-width: 950px;
+	margin: 20px auto 0;
 }
 
 .content-container {
@@ -159,6 +211,39 @@ h3 {
 	line-height: 24px;
 }
 
+.home h3 {
+	font-family: "mrs-eaves-xl-serif",serif;
+	font-size: 36px;
+	line-height: inherit;
+	text-align: center;
+}
+
+.home h4 {
+	display: inline-block;
+	margin-bottom: 16px;
+	margin: 0 auto;
+	border-bottom: 2px solid #3a3a3a;
+	font-family: "mrs-eaves-xl-serif",serif;
+	font-size: 36px;
+	font-weight: 400;
+	margin: 20px;
+}
+
+.home .how-it-works {
+	text-align: center;
+	margin: 40px auto 60px;
+}
+
+.home .how-it-works p {
+	font-size: 24px;
+	margin: 0 0 10px;
+}
+
+.home .how-it-works .item {
+	padding: 10px;
+	padding-bottom: 40px
+}
+
 .error {
 	color: red;
 	font-weight: 300;
@@ -181,6 +266,14 @@ h3 {
 	border: none;
 	outline-color: white;
 	background-color: white;
+}
+
+img {
+	vertical-align: middle;
+}
+
+.inner {
+	margin: 0 auto;
 }
 
 .intra {
@@ -206,6 +299,46 @@ h3 {
 
 .message.error {
 	color: red;
+}
+
+.package .box {
+	max-width: 640px;
+	margin: 48px auto;
+	padding: 50px 30px;
+	border: 1px solid #d3d3d3;
+	background-color: #fff;
+	text-align: center;
+}
+
+.package .box p {
+	font-weight: 500;
+	font-size: 22px;
+}
+
+.package .box ul {
+	max-width: 450px;
+	margin: 0 auto 35px;
+	padding: 0;
+	font-size: 22px;
+	font-weight: 300;
+	list-style: none;
+	text-align: left;
+}
+
+.package .box ul li {
+	padding: 18.5px 0;
+}
+
+.package .box ul li img {
+	display: inline-block;
+	width: 48px;
+	margin-right: 10px;
+}
+
+.package .outer-box {
+	margin-bottom: 65px;
+	padding: 30px 0;
+	background-color: #f0f0f0;
 }
 
 .peach {
@@ -282,6 +415,37 @@ h3 {
 		font-size: 14px;
 	}
 
+	.clients {
+		padding: 0 10px;
+		text-align: center;
+	}
+
+	.clients blockquote {
+		max-width: 300px;
+		font-size: 16px;
+	}
+
+	.clients img {
+		max-width: 245px;
+		margin-top: 18px;
+		padding-bottom: 20px;
+	}
+
+	.commonly-asked {
+		margin: 10px auto 40px;
+		text-align: center;
+	}
+
+	.commonly-asked label {
+		font-size: 16px;
+		margin: 40px auto 0;
+	}
+
+	.commonly-asked p {
+		font-size: 16px;
+		margin: 20px auto 0;
+	}
+
 	.content {
 		margin-top: 0;
 	}
@@ -307,6 +471,17 @@ h3 {
 		font-size: 30px;
 	}
 
+	.home h3 {
+		margin-top: 10px;
+		font-size: 22px;
+		line-height: 34px;
+	}
+
+	.home .how-it-works p {
+		font-size: 16px;
+		margin: 0 0 10px;
+	}
+
 	.intra {
 		top: -80px;
 	}
@@ -322,6 +497,43 @@ h3 {
 
 	.mobile-spacer {
 		margin-bottom: 15px;
+	}
+
+	.package .box {
+		height: auto;
+		margin: 0 25px 40px;
+		padding: 30px 10px;
+	}
+
+	.package .box p {
+		font-weight: 300;
+		font-size: 16px;
+	}
+
+	.package .box ul {
+		max-width: 300px;
+		margin-bottom: 20px;
+		padding: 0;
+		font-size: 16px;
+		font-weight: 300;
+		list-style: none;
+		text-align: left;
+	}
+
+	.package .box ul li {
+		padding: 8px 0;
+	}
+
+	.package .box ul li img {
+		width: 35px;
+		margin-right: 0px;
+	}
+
+	.package .outer-box {
+		margin-bottom: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+		background-color: #fff;
 	}
 
 	.vertical-align {
