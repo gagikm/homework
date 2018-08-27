@@ -1,0 +1,67 @@
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.content {
+	margin-top: 88px;
+}
+
+.form-wrapper {
+	text-align: center;
+	padding: 30px;
+}
+
+.form-wrapper input {
+	width: 100%;
+}
+.form-wrapper label {
+	width: 100%;
+	text-align: left;
+}
+
+header.container-fluid {
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #fff;
+}
+
+header .inner {
+    max-width: 1500px;
+    margin: 19px auto;
+}
+
+header .menu {
+    margin-bottom: 0;
+    float: right;
+    list-style: none;
+}
+
+header .menu li {
+	padding: 10px 40px 10px 0;
+	float: left;
+	font-size: 18.75px;
+	font-weight: 300;
+}
+header .menu li a {
+    font-weight: 300;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+    border-bottom-width: 1px;
+}
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+}

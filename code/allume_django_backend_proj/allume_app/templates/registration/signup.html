@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}
+	Sign Up | Allume
+{% endblock %}
+
+{% block content %}
+
+    {% include 'header.html' %}
+    <div class="container-fluid">
+    	<div class="row form-wrapper">
+    		<form method="post">{% csrf_token %}
+		    	{{ form.as_p }}
+		    	<br>
+		    	<div class="row">
+		    		<div class="col-md-12">
+		    			<input type="submit" value="NEXT">
+		    		</div>
+		    	</div>
+		    </form>
+	    </div>
+    </div>
+
+{% endblock %}
