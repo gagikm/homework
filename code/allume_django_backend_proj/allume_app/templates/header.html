@@ -1,0 +1,25 @@
+<header class="container-fluid navbar-fixed-top">
+
+	<div class="row inner">
+		<div class="col-md-4 col-xs-5 left">
+			{% load static %}
+			<a href="#"><img src="{% static "img/logo-black.png" %}" class="img-responsive" /></a>
+		</div>
+        	<div class="col-md-8 col-xs-7 right">
+					
+					<span class="">
+						<ul class="menu">
+							{% if user.is_authenticated %}
+								<li><a href="{% url "add_testimonial" %}">Add Testimonial</a></li>
+								<li><a href="{% url "add_to_faq" %}">Add FAQ</a></li>
+								<li>Hi {{ user.first_name }} (<a href="{% url "logout" %}">Sign Out</a>)</li>
+							{% else %}
+								<li><a href="{% url "login" %}">Sign In</a></li>
+							{% endif %}
+						</ul>
+					</span>
+				</div>
+    	
+	</div>
+		
+</header>
